@@ -1,8 +1,8 @@
 rm(list = ls())
 #setwd("")
 
-gpklink=
-jsonlink=
+gpklink="https://github.com/CIENCIA-DE-DATOS-ESPACIALES1/Actividad-1/raw/main/MapFromPython1.gpkg"
+jsonlink="https://github.com/CIENCIA-DE-DATOS-ESPACIALES1/Actividad-1/raw/main/MapFromPython2.geojson"
 
 library(sf)
 
