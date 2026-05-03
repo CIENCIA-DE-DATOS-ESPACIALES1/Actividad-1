@@ -1,0 +1,54 @@
+---
+title: "My Storyboard at IAS - tabs"
+output: 
+  flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+<!-- links -->
+```{r}
+map1link=
+viz1=url(map1link)
+
+map2link=
+viz2=url(map2link)
+```
+
+## Sidebar {.sidebar}
+
+
+I can give some textual explanation here!
+## Column {.tabset .tabset-fade}
+
+
+### GIVE ME A TITLE 1
+
+```{r}
+readRDS(viz1)
+```
+
+
+### GIVE ME A TITLE 2
+
+```{r}
+readRDS(viz2)
+```
+
+### GIVE ME A TITLE 3
+
+```{r}
+readRDS(viz1)
+```
+
+
+### GIVE ME A TITLE 4
+
+```{r}
+readRDS(viz2)
+```
+
+
+
